@@ -1,7 +1,4 @@
 letme 
 mlxg
-<<<<<<< HEAD
 ming
-=======
 uzi
->>>>>>> feature1
