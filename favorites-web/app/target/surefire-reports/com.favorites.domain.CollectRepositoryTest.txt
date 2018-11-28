@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.favorites.domain.CollectRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.202 s <<< FAILURE! - in com.favorites.domain.CollectRepositoryTest
+test(com.favorites.domain.CollectRepositoryTest)  Time elapsed: 0.015 s  <<< ERROR!
+org.springframework.dao.EmptyResultDataAccessException: No class com.favorites.domain.Collect entity with id 3 exists!
+	at com.favorites.domain.CollectRepositoryTest.test(CollectRepositoryTest.java:33)
+
