@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="layout :: htmlhead"></head>
+<body>
+	<section  layout:fragment="content">
+		<div class="container">
+			<form action="/saveExcelData" method="post" class="form-horizontal">
+				<div class="form-group">
+					<input class="form-control" id="excelfile" name="excelfile" type="file" />
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-primary">上传文件</button>
+				</div>
+			</form>
+		</div>
+	</section>
+</body>
+	<script type="text/javascript">
+		
+	</script>
+</html>
